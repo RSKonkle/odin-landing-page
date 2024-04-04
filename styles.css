@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+/* SECTION 1 START */
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -52,14 +53,6 @@ h1 {
     padding: 0;
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color:#1F2937;
-    text-align: center;
-    margin: 48px;
-}
-
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -87,4 +80,52 @@ button {
     font-size: 18px;
     justify-self: flex-end;
     flex-shrink: 1;
+}
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+    text-align: center;
+    margin: 48px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin: 0 0 120px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.caption {
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
 }
