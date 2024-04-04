@@ -59,6 +59,8 @@ a {
 
 img {
     margin: 0 320px 0 0;
+    height: 300px;
+    width: 600px;
 }
 
 p {
@@ -73,7 +75,8 @@ button {
     border: none;
     border-radius: 8px;
     padding: 8px;
-    margin: 86px 0 0 0;
+    margin: 24px 0 0 0;
     font-size: 18px;
     justify-self: flex-end;
+    flex-shrink: 1;
 }
