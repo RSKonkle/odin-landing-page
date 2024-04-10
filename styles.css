@@ -89,7 +89,7 @@ h2 {
     font-weight: extra-bold;
     color:#1F2937;
     text-align: center;
-    margin: 48px;
+    margin: 82px;
 }
 
 .gallery {
@@ -128,4 +128,30 @@ h2 {
     text-align: center;
     font-size: 18px;
     margin-top: 8px;
+}
+
+.section-3 {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 180px 400px 16px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation {
+    font-weight: bold;
+    padding-bottom: 164px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 48px;
 }
